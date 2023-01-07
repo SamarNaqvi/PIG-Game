@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background: url("./back.jpg") no-repeat center;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+
+}
+
+.container
+{
+    width: 75%;
+    height: 92%;
+    margin: 0 auto;
+    margin-top:20px;
+    background: white;
+    position: relative;
+}
+
+.container .Players
+{
+    display: flex;
+    height: 100%;
+}
+
+.Player-1,.Player-2
+{
+    text-align: center;
+    width:50%;
+    height:100%;
+}
+
+ h3
+{
+    margin-top: 100px;
+    font-size: 4rem;
+    font-weight: 1;
+}
+
+ .overall
+{
+    color:lightcoral;
+    font-size: 4rem;
+    font-weight: 1;
+    margin-top: 70px;
+}
+
+ .score 
+{
+    text-align: center;
+    margin:0 auto;
+    margin-top: 50px;
+    height:100px;
+    background-color: rgb(231, 89, 89);
+    width:20%;
+    color:white;
+    padding:12px 10px;
+    font-size: 1.3rem;
+}
+
+.score span
+{
+    display: block;
+    margin-top:30px;
+    font-size:2rem;
+}
+
+.btn-new
+{
+    transform: translate(260%,40%);
+}
+
+
+.btn-new,.btn-roll,.btn-hold
+{
+    padding: 10px;
+    background: transparent;
+    border:none;
+    font-size: 1.5rem;
+    position: absolute;    
+}
+
+button i
+{
+    color:red;
+    margin-right:10px;
+    font-size: 1.5rem;
+    
+}
+button:hover i
+{
+
+    margin-right: 15px;
+    transition: margin 0.3s;
+}
+
+.btn-hold
+{
+   margin-top: 45%;
+   margin-left: 45%;
+}
+
+.btn-roll
+{
+    margin-top: 40%;
+    margin-left: 42%;
+}
+
+.final-score
+{
+    position: absolute;
+    margin-top: 50%;
+    margin-left: 42%;
+    height: 30px;
+    border: 1px solid grey;
+    padding: 5px;
+}
+
+.final-score::placeholder
+{
+    font-size: 1.3rem;
+    text-align: center;
+    color:black
+    
+}
+
+.dice
+{
+    position: absolute;
+    width:8%;
+    top:25%;
+    left:46%;
+    
+    display: none;
+
+}
+
+#dice-2
+{
+    top:45%;
+}
+
+.final-score:focus
+{
+    border: none;
+}
+
+.Player-1
+{
+    background: rgb(247,247,247);
+
+}
+
+.Player-2
+{
+    background: rgb(255,255,255);
+ 
+}
+
+.active
+{
+    background: rgb(247,247,247);   
+}
+
+#i-1{
+    font-size: 20%;
+    /* color:white; */
+    transform: translate(150%,-95%); 
+}
+
+#i-2{
+    font-size: 20%;
+    /* color:white; */
+    color:none;
+   
+}
+
+.a1{
+    background: red;
+}
+
+
+.passive
+{
+    background: rgb(255,255,255);
+}
+.circle{
+    width:10px;
+    height:10px;
+    border-radius: 50%;
+   
+}
+
+.fa-1
+{
+    
+    margin-left: 410px;
+    transform: translateY(-390%);
+}
+
+.fa-2
+{
+    margin-left: 410px;
+    transform: translateY(-390%);
+}

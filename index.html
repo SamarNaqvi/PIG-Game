@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+        <script src="https://kit.fontawesome.com/79e99440cd.js" crossorigin="anonymous"></script>
+        <title>
+            PIG GAME
+        </title>
+    </head>
+    <body>
+        <div class="container">
+            
+        <button class="btn-new"><i class="ion-ios-plus-outline"></i>New game</button>
+        <button class="btn-roll"><i class="ion-ios-loop"></i>Roll dice</button>
+        <button class="btn-hold"><i class="ion-ios-download-outline"></i>Hold</button>
+        <input type="text" placeholder="Final score" class="final-score">    
+        <img src="dice-1.png" class="dice" id="dice-1">
+        <img src="dice-2.png" class="dice" id="dice-2" >
+            <div class="Players">
+            <div class="Player-1">
+                    <h3 class="p1">Player 1 
+                        <div class="fa-1 circle a1"></div>
+                        <!-- <i id="i-1" class="fas fa-circle fa-1"></i> -->
+                    </h3>
+                    <p id="win-1" style="display: none;">Winner</p>
+                    <p class="overall" id="overall_p1">0</p>
+                    <p class="score">   Current
+                        <span id="score_1" >0</span>  
+                    </p>
+                </div>
+                <div class="Player-2">
+                     <h3 class="p2">Player 2
+                         <div class="fa-2 circle"></div>
+
+                           <!-- <i id="i-2" class="fas fa-circle fa-2"></i> --> 
+                    </h3>
+                    <p id="win-2" style="display: none;">Winner</p>
+                    <p class="overall" id="overall_p2">0</p>
+                    <p class="score">   Current
+                    <span id="score_2" >0</span>  
+                </p>
+                </div>
+          </div>  
+        </div>
+     
+    </body>
+    <script src="./app.js"></script>
+</html>
